@@ -1,0 +1,17 @@
+.light-gray-bg {
+    background-color: #F3F4F6;
+    transition: background-color 0.25s;
+}
+.purple-bg {
+    background-color: #6B46C1;
+    color: #FFFFFF;
+    transition: background-color 0.25s, color 0.25s;
+}
+.bebas-neue {
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+}
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}

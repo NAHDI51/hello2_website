@@ -1,0 +1,31 @@
+<!DOCTYPE html5>
+
+<html>
+<head> 
+    <title>
+        Hello world
+    </title>
+</head>
+<body>
+    <h1>
+        The legendary form
+    </h1>
+    <form action="." method="POST">
+        <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
+
+        <?php
+            echo "Hello form. <br> ";
+            $variable = "10";
+        ?>
+        @if ($variable < 10)
+            <h3> This form sucks. </h3>
+        @elseif ($variable > 10)
+            <h3> This form also sucks. </h3>
+        @else
+            <h3> This form does not suck. </h3>
+        @endif
+        
+    </form>
+</form>
+</body>
+</html>

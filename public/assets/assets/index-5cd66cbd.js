@@ -1,0 +1,1 @@
+const s=document.querySelectorAll(".volunteer");s.forEach(e=>{e.addEventListener("mouseenter",()=>{e.classList.add("purple-bg")}),e.addEventListener("mouseleave",()=>{e.classList.remove("purple-bg")})});
